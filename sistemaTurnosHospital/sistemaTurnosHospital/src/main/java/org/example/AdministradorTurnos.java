@@ -1,5 +1,7 @@
 package org.example;
-
+/**
+ * Administra los turnos del hospital utilizando el patrón Singleton.
+ */
 public final class AdministradorTurnos {
 
     private static AdministradorTurnos instancia;

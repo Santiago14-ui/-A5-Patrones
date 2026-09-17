@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Los dos jugadores acceden a la misma configuración
+
         ConfiguracionJuego configuracion1 =
                 ConfiguracionJuego.getInstancia();
 
@@ -14,13 +14,13 @@ public class Main {
         System.out.println("Configuración inicial:");
         configuracion1.mostrarConfiguraciones();
 
-        // Cambiamos una configuración desde el jugador 1
+
         configuracion1.cambiarConfiguracion("Dificultad", "Facil");
 
         System.out.println("\nDespués de cambiar la dificultad:");
         configuracion2.mostrarConfiguraciones();
 
-        // Agregamos una nueva configuración
+
         configuracion1.agregarConfiguracion("Resolución", "1920x1080");
 
         System.out.println("\nConfiguración final:");
