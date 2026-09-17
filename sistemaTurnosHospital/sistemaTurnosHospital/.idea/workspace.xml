@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0fca38e5-436f-42e4-9f88-da11d6063385" name="Changes" comment="SistemaTurnosHospital terminado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AdministradorTurnos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AdministradorTurnos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1789613150518</updated>
       <workItem from="1789613151783" duration="1366000" />
+      <workItem from="1789618495776" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="SistemaTurnosHospital terminado">
       <option name="closed" value="true" />
