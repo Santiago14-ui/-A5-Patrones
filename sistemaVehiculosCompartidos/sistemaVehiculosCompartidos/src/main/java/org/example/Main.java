@@ -1,17 +1,27 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+    public static void main(String[] args) {
+
+        Vehiculo carro = new VehiculoBuilder("Carro", "ABC123")
+                .color("Rojo")
+                .capacidad(5)
+                .accesorios("GPS")
+                .build();
+
+        System.out.println(" Vehículo original ");
+        carro.mostrarInformacion();
+
+        Vehiculo copia = carro.clonar();
+
+        copia.cambiarColor("Negro");
+
+        System.out.println("\n Vehículo personalizado ");
+        copia.mostrarInformacion();
+
+        if (carro != copia) {
+            System.out.println("\nEl vehículo clonado es un objeto diferente al original.");
         }
     }
 }
