@@ -3,7 +3,7 @@ package org.example;
 /**
  * Crea notificaciones de tipo SMS.
  */
-public class CreadorSMS extends CreadorNotificacion {
+public class FactorySMS extends FactoryNotificacion {
 
     @Override
     public Notificacion crearNotificacion() {

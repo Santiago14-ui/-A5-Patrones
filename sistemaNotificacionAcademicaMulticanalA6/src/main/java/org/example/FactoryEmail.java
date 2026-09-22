@@ -3,7 +3,7 @@ package org.example;
 /**
  * Crea notificaciones de tipo Email.
  */
-public class CreadorEmail extends CreadorNotificacion {
+public class FactoryEmail extends FactoryNotificacion {
 
     @Override
     public Notificacion crearNotificacion() {

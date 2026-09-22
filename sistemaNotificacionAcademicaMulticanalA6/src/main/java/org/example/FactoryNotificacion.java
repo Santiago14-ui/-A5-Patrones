@@ -3,7 +3,7 @@ package org.example;
 /**
  * Creador de las notificaciones
  */
-public abstract class CreadorNotificacion {
+public abstract class FactoryNotificacion {
 
     public abstract Notificacion crearNotificacion();
 

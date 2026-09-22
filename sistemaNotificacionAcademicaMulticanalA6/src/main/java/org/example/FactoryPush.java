@@ -3,11 +3,11 @@ package org.example;
 /**
  * Crea notificaciones de tipo Push.
  */
-public class CreadorPush extends CreadorNotificacion {
+public class FactoryPush extends FactoryNotificacion {
 
     private Prioridad prioridad;
 
-    public CreadorPush(Prioridad prioridad) {
+    public FactoryPush(Prioridad prioridad) {
         this.prioridad = prioridad;
     }
 

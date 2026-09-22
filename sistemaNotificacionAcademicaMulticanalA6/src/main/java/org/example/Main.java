@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        CreadorNotificacion creadorEmail = new CreadorEmail();
+        FactoryNotificacion creadorEmail = new FactoryEmail();
 
         creadorEmail.enviarNotificacion(
                 "santiago@uniquindio.edu.co",
@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println();
 
-        CreadorNotificacion creadorSMS = new CreadorSMS();
+        FactoryNotificacion creadorSMS = new FactorySMS();
 
         creadorSMS.enviarNotificacion(
                 "+573001234567",
@@ -22,8 +22,8 @@ public class Main {
 
         System.out.println();
 
-        CreadorNotificacion creadorPush =
-                new CreadorPush(Prioridad.ALTA);
+        FactoryNotificacion creadorPush =
+                new FactoryPush(Prioridad.ALTA);
 
         creadorPush.enviarNotificacion(
                 "Santiago",
